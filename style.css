@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fb0;
+}
+
+/* TODO: 1) Расставить все по центру */
+
+.container {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  border: 2px dashed brown;
+  padding: 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.input {
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.breweries-list {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.brewery-name-label {
+  margin-top: 50px;
+}
